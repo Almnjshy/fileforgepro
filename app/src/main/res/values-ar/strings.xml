@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">FileForge Pro</string>
+
+    <!-- Sidebar sections -->
+    <string name="nav_quick_access">وصول سريع</string>
+    <string name="nav_storage">التخزين</string>
+    <string name="nav_network">الشبكة</string>
+    <string name="nav_cloud">السحابة</string>
+    <string name="nav_tools">الأدوات</string>
+    <string name="nav_system">النظام</string>
+
+    <!-- Sidebar items -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_recent">الأخيرة</string>
+    <string name="nav_downloads">التنزيلات</string>
+    <string name="nav_documents">المستندات</string>
+    <string name="nav_pictures">الصور</string>
+    <string name="nav_videos">الفيديو</string>
+    <string name="nav_music">الموسيقى</string>
+    <string name="nav_storage_analyzer">محلل التخزين</string>
+    <string name="nav_duplicate_finder">البحث عن المكرر</string>
+    <string name="nav_large_files">الملفات الكبيرة</string>
+    <string name="nav_archives">الأرشيفات</string>
+    <string name="nav_ftp">FTP</string>
+    <string name="nav_smb">SMB</string>
+    <string name="nav_webdav">WebDAV</string>
+    <string name="nav_internal_storage">التخزين الداخلي</string>
+    <string name="nav_sd_card">بطاقة SD</string>
+    <string name="nav_usb_drive">USB</string>
+    <string name="nav_storage_sources">مصادر التخزين</string>
+    <string name="nav_movies">الأفلام</string>
+    <string name="nav_network_storage">تخزين الشبكة</string>
+    <string name="nav_text_editor">محرر النصوص</string>
+    <string name="nav_secure_vault">الخزنة الآمنة</string>
+    <string name="nav_developer_tools">أدوات المطور</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_back">للخلف</string>
+    <string name="toolbar_forward">للأمام</string>
+    <string name="toolbar_up">أعلى</string>
+    <string name="toolbar_refresh">تحديث</string>
+    <string name="toolbar_search">بحث</string>
+    <string name="toolbar_more">المزيد</string>
+
+    <!-- View modes -->
+    <string name="view_large_grid">شبكة كبيرة</string>
+    <string name="view_medium_grid">شبكة متوسطة</string>
+    <string name="view_small_grid">شبكة صغيرة</string>
+    <string name="view_list">قائمة</string>
+    <string name="view_compact_list">قائمة مدمجة</string>
+    <string name="view_details">تفاصيل</string>
+    <string name="view_thumbnail">مصغرات</string>
+
+    <!-- Sorting -->
+    <string name="sort_name">الاسم</string>
+    <string name="sort_size">الحجم</string>
+    <string name="sort_type">النوع</string>
+    <string name="sort_modified">آخر تعديل</string>
+    <string name="sort_ascending">تصاعدي</string>
+    <string name="sort_descending">تنازلي</string>
+
+    <!-- Item size -->
+    <string name="size_small">صغير</string>
+    <string name="size_medium">متوسط</string>
+    <string name="size_large">كبير</string>
+
+    <!-- File operations -->
+    <string name="action_copy">نسخ</string>
+    <string name="action_move">نقل</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_compress">ضغط</string>
+    <string name="action_properties">خصائص</string>
+    <string name="action_open">فتح</string>
+    <string name="action_open_with">فتح بواسطة</string>
+    <string name="action_open_in_new_window">فتح في نافذة جديدة</string>
+    <string name="action_open_in_new_pane">فتح في لوحة جديدة</string>
+    <string name="action_add_to_favorites">إضافة للمفضلة</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_new_folder">مجلد جديد</string>
+    <string name="action_new_file">ملف جديد</string>
+    <string name="action_paste">لصق</string>
+    <string name="action_cut">قص</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_pause">إيقاف مؤقت</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_skip">تخطي</string>
+    <string name="action_replace">استبدال</string>
+    <string name="action_keep_both">الإبقاء على كليهما</string>
+    <string name="action_apply_to_all">تطبيق على الكل</string>
+
+    <!-- Conflict -->
+    <string name="conflict_title">الملف موجود بالفعل</string>
+    <string name="conflict_message">%1$s موجود بالفعل في هذا الموقع.</string>
+
+    <!-- Progress -->
+    <string name="progress_copying">جاري النسخ…</string>
+    <string name="progress_moving">جاري النقل…</string>
+    <string name="progress_deleting">جاري الحذف…</string>
+    <string name="progress_speed">السرعة: %1$s</string>
+    <string name="progress_eta">الوقت المتبقي: %1$s</string>
+
+    <!-- Errors -->
+    <string name="error_permission_denied">تم رفض الإذن</string>
+    <string name="error_file_not_found">الملف أو المجلد غير موجود</string>
+    <string name="error_file_exists">يوجد ملف بهذا الاسم بالفعل</string>
+    <string name="error_read_only">هذا الموقع للقراءة فقط</string>
+    <string name="error_storage_unavailable">التخزين غير متاح</string>
+    <string name="error_insufficient_storage">لا توجد مساحة كافية</string>
+    <string name="error_io">خطأ في الإدخال/الإخراج</string>
+    <string name="error_invalid_archive">الأرشيف تالف أو غير مدعوم</string>
+    <string name="error_network">خطأ في الشبكة</string>
+    <string name="error_invalid_name">اسم ملف أو مجلد غير صالح</string>
+    <string name="error_operation_cancelled">تم إلغاء العملية</string>
+
+    <!-- Permissions -->
+    <string name="perm_rationale_manage_storage">يحتاج FileForge Pro إلى الوصول إلى جميع الملفات ليتمكن من إدارة نظام الملفات مثل مستكشف ملفات سطح المكتب.</string>
+    <string name="perm_rationale_read_media">اسمح بالوصول إلى وسائطك ليتمكن FileForge Pro من عرض المصغرات والمعاينات.</string>
+    <string name="perm_rationale_notifications">اسمح بالإشعارات لتتمكن من رؤية تقدم عمليات الملفات الطويلة.</string>
+    <string name="perm_rationale_foreground_service">مطلوب لإبقاء عمليات الملفات تعمل في الخلفية.</string>
+    <string name="perm_rationale_internet">مطلوب لتخزين شبكة FTP / SMB / WebDAV.</string>
+    <string name="perm_grant">منح</string>
+    <string name="perm_open_settings">فتح الإعدادات</string>
+    <string name="storage_access_required">مطلوب الوصول للتخزين</string>
+    <string name="storage_access_granted">تم منح الوصول للتخزين</string>
+    <string name="grant_storage_access">منح الوصول للتخزين</string>
+    <string name="notifications_optional">الإشعارات (اختياري)</string>
+    <string name="allow_notifications">السماح بالإشعارات</string>
+    <string name="ready_opening">✓ جاهز — جاري فتح FileForge…</string>
+    <string name="onboarding_description">يحتاج FileForge Pro للوصول إلى ملفاتك ليتمكن من سرد الملفات ونسخها ونقلها وإدارتها مثل مستكشف ملفات سطح المكتب.</string>
+    <string name="notifications_description">عرض تقدم عمليات النسخ والنقل والحذف الطويلة.</string>
+
+    <!-- Home dashboard -->
+    <string name="home_storage_used">%1$s مستخدم</string>
+    <string name="home_storage_free">%1$s متاح</string>
+    <string name="home_storage_total">%1$s الإجمالي</string>
+    <string name="home_quick_access">وصول سريع</string>
+    <string name="home_recent">الأخيرة</string>
+    <string name="home_favorites">المفضلة</string>
+    <string name="home_storage_sources">مصادر التخزين</string>
+    <string name="professional_file_manager">مدير ملفات احترافي</string>
+
+    <!-- Storage -->
+    <string name="internal_storage">التخزين الداخلي</string>
+    <string name="sd_card">بطاقة SD</string>
+    <string name="usb_storage">تخزين USB</string>
+
+    <!-- Windows -->
+    <string name="window_minimize">تصغير</string>
+    <string name="window_maximize">تكبير</string>
+    <string name="window_close">إغلاق</string>
+    <string name="window_restore">استعادة</string>
+    <string name="window_task_switcher">النوافذ المفتوحة</string>
+
+    <!-- Empty states -->
+    <string name="folder_empty">هذا المجلد فارغ</string>
+    <string name="empty_recent">لا توجد ملفات أخيرة بعد</string>
+    <string name="empty_favorites">لا توجد مفضلات بعد</string>
+    <string name="empty_search">لا توجد نتائج</string>
+
+    <!-- Browser -->
+    <string name="paste_here">لصق هنا</string>
+    <string name="move_here">نقل إلى هنا</string>
+    <string name="new_folder">مجلد جديد</string>
+    <string name="new_file">ملف جديد</string>
+    <string name="new_item">جديد</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_theme">السمة</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_system">النظام</string>
+    <string name="settings_theme_amoled">AMOLED</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_show_hidden">إظهار الملفات المخفية</string>
+    <string name="settings_clear_cache">مسح ذاكرة المصغرات المؤقتة</string>
+    <string name="settings_about">حول التطبيق</string>
+</resources>

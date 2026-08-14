@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">FileForge Pro</string>
+
+    <!-- Sidebar sections -->
+    <string name="nav_quick_access">Quick Access</string>
+    <string name="nav_storage">Storage</string>
+    <string name="nav_network">Network</string>
+    <string name="nav_cloud">Cloud</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_system">System</string>
+
+    <!-- Sidebar items -->
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_recent">Recent</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_documents">Documents</string>
+    <string name="nav_pictures">Pictures</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_storage_analyzer">Storage Analyzer</string>
+    <string name="nav_duplicate_finder">Duplicate Finder</string>
+    <string name="nav_large_files">Large Files</string>
+    <string name="nav_archives">Archives</string>
+    <string name="nav_ftp">FTP</string>
+    <string name="nav_smb">SMB</string>
+    <string name="nav_webdav">WebDAV</string>
+    <string name="nav_internal_storage">Internal Storage</string>
+    <string name="nav_sd_card">SD Card</string>
+    <string name="nav_usb_drive">USB Drive</string>
+    <string name="nav_storage_sources">Storage Sources</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_network_storage">Network Storage</string>
+    <string name="nav_text_editor">Text Editor</string>
+    <string name="nav_secure_vault">Secure Vault</string>
+    <string name="nav_developer_tools">Developer Tools</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_back">Back</string>
+    <string name="toolbar_forward">Forward</string>
+    <string name="toolbar_up">Up</string>
+    <string name="toolbar_refresh">Refresh</string>
+    <string name="toolbar_search">Search</string>
+    <string name="toolbar_more">More</string>
+
+    <!-- View modes -->
+    <string name="view_large_grid">Large Grid</string>
+    <string name="view_medium_grid">Medium Grid</string>
+    <string name="view_small_grid">Small Grid</string>
+    <string name="view_list">List</string>
+    <string name="view_compact_list">Compact List</string>
+    <string name="view_details">Details</string>
+    <string name="view_thumbnail">Thumbnails</string>
+
+    <!-- Sorting -->
+    <string name="sort_name">Name</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_type">Type</string>
+    <string name="sort_modified">Modified</string>
+    <string name="sort_ascending">Ascending</string>
+    <string name="sort_descending">Descending</string>
+
+    <!-- Item size -->
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+
+    <!-- File operations -->
+    <string name="action_copy">Copy</string>
+    <string name="action_move">Move</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_share">Share</string>
+    <string name="action_compress">Compress</string>
+    <string name="action_properties">Properties</string>
+    <string name="action_open">Open</string>
+    <string name="action_open_with">Open with</string>
+    <string name="action_open_in_new_window">Open in New Window</string>
+    <string name="action_open_in_new_pane">Open in New Pane</string>
+    <string name="action_add_to_favorites">Add to Favorites</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_new_folder">New Folder</string>
+    <string name="action_new_file">New File</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_cut">Cut</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_replace">Replace</string>
+    <string name="action_keep_both">Keep Both</string>
+    <string name="action_apply_to_all">Apply to all</string>
+
+    <!-- Conflict -->
+    <string name="conflict_title">File already exists</string>
+    <string name="conflict_message">%1$s already exists in this location.</string>
+
+    <!-- Progress -->
+    <string name="progress_copying">Copying…</string>
+    <string name="progress_moving">Moving…</string>
+    <string name="progress_deleting">Deleting…</string>
+    <string name="progress_speed">Speed: %1$s</string>
+    <string name="progress_eta">ETA: %1$s</string>
+
+    <!-- Errors -->
+    <string name="error_permission_denied">Permission denied</string>
+    <string name="error_file_not_found">File or folder not found</string>
+    <string name="error_file_exists">A file with this name already exists</string>
+    <string name="error_read_only">This location is read-only</string>
+    <string name="error_storage_unavailable">Storage is not available</string>
+    <string name="error_insufficient_storage">Not enough free space</string>
+    <string name="error_io">I/O error</string>
+    <string name="error_invalid_archive">Archive is corrupt or unsupported</string>
+    <string name="error_network">Network error</string>
+    <string name="error_invalid_name">Invalid file or folder name</string>
+    <string name="error_operation_cancelled">Operation was cancelled</string>
+
+    <!-- Permissions -->
+    <string name="perm_rationale_manage_storage">FileForge Pro needs access to all files so it can manage your file system like a desktop file explorer.</string>
+    <string name="perm_rationale_read_media">Allow access to your media so FileForge Pro can show thumbnails and previews.</string>
+    <string name="perm_rationale_notifications">Allow notifications so you can see progress of long file operations.</string>
+    <string name="perm_rationale_foreground_service">Required to keep file operations running in the background.</string>
+    <string name="perm_rationale_internet">Required for FTP / SMB / WebDAV network storage.</string>
+    <string name="perm_grant">Grant</string>
+    <string name="perm_open_settings">Open settings</string>
+    <string name="storage_access_required">Storage access required</string>
+    <string name="storage_access_granted">Storage access granted</string>
+    <string name="grant_storage_access">Grant storage access</string>
+    <string name="notifications_optional">Notifications (optional)</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="ready_opening">✓ Ready — opening FileForge…</string>
+    <string name="onboarding_description">FileForge Pro needs access to your files so it can list, copy, move, and manage them like a desktop file explorer.</string>
+    <string name="notifications_description">Show progress of long-running copy, move, and delete operations.</string>
+
+    <!-- Home dashboard -->
+    <string name="home_storage_used">%1$s used</string>
+    <string name="home_storage_free">%1$s free</string>
+    <string name="home_storage_total">%1$s total</string>
+    <string name="home_quick_access">Quick Access</string>
+    <string name="home_recent">Recent</string>
+    <string name="home_favorites">Favorites</string>
+    <string name="home_storage_sources">Storage Sources</string>
+    <string name="professional_file_manager">Professional file manager</string>
+
+    <!-- Storage -->
+    <string name="internal_storage">Internal Storage</string>
+    <string name="sd_card">SD Card</string>
+    <string name="usb_storage">USB Storage</string>
+
+    <!-- Windows -->
+    <string name="window_minimize">Minimize</string>
+    <string name="window_maximize">Maximize</string>
+    <string name="window_close">Close</string>
+    <string name="window_restore">Restore</string>
+    <string name="window_task_switcher">Open Windows</string>
+
+    <!-- Empty states -->
+    <string name="folder_empty">Folder is empty</string>
+    <string name="empty_recent">No recent files yet</string>
+    <string name="empty_favorites">No favorites yet</string>
+    <string name="empty_search">No results</string>
+
+    <!-- Browser -->
+    <string name="paste_here">Paste here</string>
+    <string name="move_here">Move here</string>
+    <string name="new_folder">New Folder</string>
+    <string name="new_file">New File</string>
+    <string name="new_item">New</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_amoled">AMOLED</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_show_hidden">Show hidden files</string>
+    <string name="settings_clear_cache">Clear thumbnail cache</string>
+    <string name="settings_about">About</string>
+</resources>
